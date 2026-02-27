@@ -7,7 +7,7 @@ public class Main {
         Product product1 = new Product();
         product1.setId("2611");
         product1.setName("Susy");
-        product1.setPrice(1.200);
+        product1.setPrice(1200.0);
         product1.setStock(50);
 
         System.out.println(product1.toString());
@@ -19,7 +19,7 @@ public class Main {
         product2.setName("Samara");
         product2.setId("0520");
         product2.setStock(50);
-        product2.setPrice(1.800);
+        product2.setPrice(1800.0);
 
         System.out.println("El precio del  producto es: " + product2.getPrice() );
         System.out.println("El stock es: " + product2.getStock() );
